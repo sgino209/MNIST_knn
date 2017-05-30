@@ -2,7 +2,7 @@ from scipy.stats import mode
 from pickle import load, dump
 from numpy import empty, mean, linalg, diag, einsum, argsort, genfromtxt, dtype
 
-load_or_pickle_data = 'pickle'   # 'pickle' / 'pickle'
+load_or_pickle_data = 'load'   # 'load' / 'pickle'
 k_PCA = 40
 k_NN = 6
 
